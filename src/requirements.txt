@@ -1,0 +1,12 @@
+# Data Manipulation
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+xgboost
+joblib
+
+# Dashboard & Visualization
+streamlit
+plotly
