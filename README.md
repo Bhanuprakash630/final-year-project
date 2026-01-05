@@ -29,34 +29,55 @@ Insider_Threat_Detection/
 ├── requirements.txt        # Project dependencies
 └── README.md               # Documentation
 ofessional! Do you need help with the "LICENSE" file or the "requirements.txt" to finish the repo?**
+
 🚀 Step-by-Step Setup
 1. Clone the Repository
-git clone [https://github.com/YOUR_USERNAME/Insider_Threat_Detection.git](https://github.com/YOUR_USERNAME/Insider_Threat_Detection.git)
-cd Insider_Threat_Detection
+
+      git clone [https://github.com/YOUR_USERNAME/Insider_Threat_Detection.git]
+      (https://github.com/YOUR_USERNAME/Insider_Threat_Detection.git)
+      cd Insider_Threat_Detection
+
 2. Create a Virtual Environment (Recommended)
-python -m venv venv
+
+      python -m venv venv
+
 # Activate on Windows:
-venv\Scripts\activate
+
+      venv\Scripts\activate
+
 # Activate on Mac/Linux:
-source venv/bin/activate
+
+      source venv/bin/activate
+
 3. Install Dependencies
-pip install -r requirements.txt
+
+      pip install -r requirements.txt
+
 🛠️ Execution Pipeline
 Follow these steps in order to initialize the system:
 
 Step 1: Preprocessing
 Clean the raw data and prepare it for the AI models.
-python src/preprocess.py
+
+      python src/preprocess.py
+
 Step 2: Training
 Train both the Random Forest and XGBoost models simultaneously.
-python src/train_model.py
+
+      python src/train_model.py
+
 Step 3: Evaluation
 Compare the accuracy and recall of both models to see which performs better.
-python src/evaluate.py
+
+      python src/evaluate.py
+
 Step 4: Launch the Dashboard
 Run the interactive web interface and start detecting threats!
-streamlit run dashboard/app.py
+
+      streamlit run dashboard/app.py
+
 📊 How It Works
+
 Data Input: The system takes features like login_hour, usb_insertions, and sensitive_files_accessed.
 
 AI Analysis: The selected model (RF or XGB) calculates a probability score.
@@ -64,33 +85,4 @@ AI Analysis: The selected model (RF or XGB) calculates a probability score.
 Risk Flagging: If the probability exceeds a threshold, a 🚨 HIGH RISK alert is triggered.
 
 Assistance: Users can interact with the Security Chatbot to understand the specific dangers of the flagged activities.
-
-🛠️ Tech Stack
-Core: Python 3.12
-
-Data: Pandas, NumPy
-
-ML: Scikit-Learn, XGBoost
-
-UI: Streamlit, Plotly
-
-Storage: Joblib (Model Serialization)
-
-📝 License
-Distributed under the MIT License. See LICENSE for more information.
-***
-
-### Why this README is effective for GitHub:
-1.  **Badges & Emojis**: It uses visual cues to make the document readable and engaging.
-2.  **Code Blocks**: Clear terminal commands make it easy for users to "copy-paste" and run your project.
-3.  **Pipeline Flow**: It explains the *logic* (Preprocess -> Train -> Evaluate -> Dashboard) so people understand your workflow.
-4.  **Tech Stack**: Listing your tools shows that you are using industry-standard libraries like XGBoost and Scikit-Learn.
-
-
-
-[Image of a software project documentation structure]
-
-
-**Now your GitHub profile will look very professional! Do you need help with the "LICENSE" file or the "requirements.txt" to finish the repo?**
-
 
