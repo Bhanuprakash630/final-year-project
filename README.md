@@ -28,51 +28,33 @@ Insider_Threat_Detection/
 │   └── app.py              # Streamlit Web App & Chatbot
 ├── requirements.txt        # Project dependencies
 └── README.md               # Documentation
-
+ofessional! Do you need help with the "LICENSE" file or the "requirements.txt" to finish the repo?**
 🚀 Step-by-Step Setup
 1. Clone the Repository
-Bash
-
 git clone [https://github.com/YOUR_USERNAME/Insider_Threat_Detection.git](https://github.com/YOUR_USERNAME/Insider_Threat_Detection.git)
 cd Insider_Threat_Detection
 2. Create a Virtual Environment (Recommended)
-Bash
-
 python -m venv venv
 # Activate on Windows:
 venv\Scripts\activate
 # Activate on Mac/Linux:
 source venv/bin/activate
 3. Install Dependencies
-Bash
-
 pip install -r requirements.txt
 🛠️ Execution Pipeline
 Follow these steps in order to initialize the system:
 
 Step 1: Preprocessing
 Clean the raw data and prepare it for the AI models.
-
-Bash
-
 python src/preprocess.py
 Step 2: Training
 Train both the Random Forest and XGBoost models simultaneously.
-
-Bash
-
 python src/train_model.py
 Step 3: Evaluation
 Compare the accuracy and recall of both models to see which performs better.
-
-Bash
-
 python src/evaluate.py
 Step 4: Launch the Dashboard
 Run the interactive web interface and start detecting threats!
-
-Bash
-
 streamlit run dashboard/app.py
 📊 How It Works
 Data Input: The system takes features like login_hour, usb_insertions, and sensitive_files_accessed.
@@ -96,8 +78,6 @@ Storage: Joblib (Model Serialization)
 
 📝 License
 Distributed under the MIT License. See LICENSE for more information.
-
-
 ***
 
 ### Why this README is effective for GitHub:
@@ -112,3 +92,5 @@ Distributed under the MIT License. See LICENSE for more information.
 
 
 **Now your GitHub profile will look very professional! Do you need help with the "LICENSE" file or the "requirements.txt" to finish the repo?**
+
+
